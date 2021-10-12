@@ -12,8 +12,9 @@ and to some extent the processor exceptions that can occur as a result.  They
 don't cover other aspects of the system behaviour; in particular, only a very
 basic address translation configuration is used.
 
-More information about the test generation can be found in [this technical
-report](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-959.html).
+More information about the test generation can be found in section 7 of [this
+technical report](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-959.html),
+"Model-based test generation".
 
 ## Important notes
 
