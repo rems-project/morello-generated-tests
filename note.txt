@@ -1,0 +1,23 @@
+This note is just a reminder to self about how this repository was formed.
+
+These tests are the ones that were rebuilt with a fixed CPTR_EL3 to remove
+non-determinism.  That probably is not relevant for our regression testing
+purposes, however.
+
+For
+
+2020-10-01
+2020-10-07
+2020-11-10
+2020-11-26
+
+I've removed the tests that I recorded as failing, flattened the directory
+structure, and removed the now redundant readme file.
+
+The remaining two
+
+2021-01-29-exn-tests
+2021-02-06-exn-tests
+
+I removed all of the broken tests, log files, model output, flattened the
+directory structure, and trimmed an irrelevant part of a readme.
