@@ -1,11 +1,13 @@
-# Automatically generated test suite for Morello
+# Automatically generated test suite for Arm Morello
 
 This repository contains a set of tests that was automatically generated from a
-formal specification of the Morello architecture.  Each test consists of a
-sequence of instructions under test (mostly randomly chosen, but occasionally
-with one instruction fixed to improve coverage) and a harness that constructs
-the state required to run those instructions and check some relevant parts of
-the post-state to detect failures.
+formal specification of the [Arm Morello
+architecture](https://www.morello-project.org/) as part of the Digital Security
+by Design research programme.  Each test consists of a sequence of instructions
+under test (mostly randomly chosen, but occasionally with one instruction fixed
+to improve coverage) and a harness that constructs the state required to run
+those instructions and check some relevant parts of the post-state to detect
+failures.
 
 The tests are intended to cover most of the new Morello instruction behaviour
 and to some extent the processor exceptions that can occur as a result.  They
